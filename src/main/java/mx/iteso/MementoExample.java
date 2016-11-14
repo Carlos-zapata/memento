@@ -16,5 +16,6 @@ public class MementoExample {
         originator.set("State4");
 
         originator.restoreFromMemento( caretaker.getMemento(1) );
+        originator.restoreFromMemento( caretaker.getMemento(0) )
     }
 }
